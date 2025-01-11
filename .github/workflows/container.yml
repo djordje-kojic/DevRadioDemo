@@ -27,4 +27,4 @@ jobs:
             push: true
             tags: |
                 devinit23/nextwebapp:latest
-                devinit23/nextwebapp: ${{github.run_number}}
+                devinit23/nextwebapp:${{github.run_number}}
